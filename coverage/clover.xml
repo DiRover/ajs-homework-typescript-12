@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597080500907" clover="3.2.0">
-  <project timestamp="1597080500907" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6" elements="23" coveredelements="23" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+<coverage generated="1597255081510" clover="3.2.0">
+  <project timestamp="1597255081510" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="19" coveredelements="19" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="Cart.ts" path="E:\IT_and_programing\Frontend\8.0_Homeworks\Task_12\src\js\Cart.ts">
-      <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
       <line num="19" count="2" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="27" count="2" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="35" count="1" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

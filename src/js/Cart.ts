@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable spaced-comment */
 /* eslint-disable no-mixed-operators */
 /* eslint-disable no-restricted-syntax */
@@ -15,11 +16,8 @@ export default class Cart {
   }
 
   sumPrice(): number {
-    let sum: number = 0;
-    for (const movie of this.items) {
-      sum += movie.price;
-    }
-    return sum;
+    const result: number = this.items.reduce((sum: number, current: Buyable) => sum + current.price, 0);
+    return result;
   }
 
   sumDiscount(discount: number): number {
@@ -31,17 +29,14 @@ export default class Cart {
   }
 
   deleteItem(itemId: number): void {
-    for (let i = 0; i < this.items.length; i += 1) {
-      if (this.items[i].id === itemId) {
-        this.items.splice(i, 1);
-      }
-    }
+    this.items = this.items.filter((item: Buyable) => item.id !== itemId); //возвращаем новый массив
   }
 }
 
 // для отладки
-// const cart = new Cart();
-// cart.add(avengers)
-// cart.add(wolf)
-// cart.deleteItem(23)
+//const cart = new Cart();
+//cart.add(avengers)
+//cart.add(wolf)
+//cart.deleteItem(23)
 // console.log(cart.getAll())
+//console.log(cart.sumPrice());
